@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.1)
 project(AutopatcherClientRestarter)
 include_directories(${RAKNETHEADERFILES} ./) 
 add_executable(AutopatcherClientRestarter "main.cpp" "readme.txt")

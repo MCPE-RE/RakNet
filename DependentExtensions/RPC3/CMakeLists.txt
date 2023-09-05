@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.1)
 project(LibRPC3)
 IF (NOT WIN32 AND UNIX)
 	FILE(GLOB ALL_HEADER_SRCS *.h)

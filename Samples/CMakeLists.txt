@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.1)
 IF(NOT ${CMAKE_GENERATOR} STREQUAL "MSYS Makefiles")
 	add_subdirectory("Ping")
 ENDIF(NOT ${CMAKE_GENERATOR} STREQUAL "MSYS Makefiles")

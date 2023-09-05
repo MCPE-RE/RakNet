@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.1)
 project("Chat Example")
 include_directories(${RAKNETHEADERFILES} ./) 
 add_executable(ChatServer "Chat Example Server.cpp" readme.txt)

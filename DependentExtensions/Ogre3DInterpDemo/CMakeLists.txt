@@ -1,5 +1,6 @@
-cmake_minimum_required(VERSION 2.6)
-GETCURRENTFOLDER()
+cmake_minimum_required(VERSION 3.1)
+GETCURRENTFOLDER()
+
 IF(UNIX AND USEOIS AND NOT DISABLEDEPENDENCIES)
 	project(${current_folder})
 	FINDOGRE3D()

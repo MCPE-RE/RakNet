@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.1)
 project(Lobby2Client)
 include_directories(${RAKNETHEADERFILES} ./ ${RakNet_SOURCE_DIR}/DependentExtensions/Lobby2 ${RakNet_SOURCE_DIR}/DependentExtensions/Lobby2/Rooms)
 FILE(GLOB LOBBYFILES ${RakNet_SOURCE_DIR}/DependentExtensions/Lobby2/*.cpp ${RakNet_SOURCE_DIR}/DependentExtensions/Lobby2/*.h)

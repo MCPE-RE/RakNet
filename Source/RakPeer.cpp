@@ -126,7 +126,7 @@ static const unsigned int MAX_OFFLINE_DATA_LENGTH=400; // I set this because I l
 #pragma warning(disable:4309) // 'initializing' : truncation of constant value
 #endif
 // Make sure highest bit is 0, so isValid in DatagramHeaderFormat is false
-static const char OFFLINE_MESSAGE_DATA_ID[16]={0x00,0xFF,0xFF,0x00,0xFE,0xFE,0xFE,0xFE,0xFD,0xFD,0xFD,0xFD,0x12,0x34,0x56,0x78};
+static const char OFFLINE_MESSAGE_DATA_ID[16]={(char)0x00,(char)0xFF,(char)0xFF,(char)0x00,(char)0xFE,(char)0xFE,(char)0xFE,(char)0xFE,(char)0xFD,(char)0xFD,(char)0xFD,(char)0xFD,(char)0x12,(char)0x34,(char)0x56,(char)0x78};
 
 struct PacketFollowedByData
 {
